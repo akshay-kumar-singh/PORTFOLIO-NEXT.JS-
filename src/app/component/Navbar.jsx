@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          AKKI
+          ༒☬AKKI☬༒
           {/* <img src="logo.png" alt="logo" height={50} width={100} /> */}
         </Link>
         <div className="mobile-menu block md:hidden">
