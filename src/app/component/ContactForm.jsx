@@ -21,6 +21,10 @@ const ContactForm = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
+        <div className="mb-4">
+          <div>Phone : +91-9123119624</div>
+          <div>Email : akshaysing975@gmail.com</div>
+        </div>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/akshay-kumar-singh">
             <Image src={GithubIcon} alt="Github Icon" />
