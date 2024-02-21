@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I'm quick and enthusiatic learner. To secure a challenging position where I can effectively contribute my skills as software developer engineer professional for growth of organization and myself. Always passionate about learning new technologies.
+          I&apos;m quick and enthusiatic learner. To secure a challenging position where I can effectively contribute my skills as software developer engineer professional for growth of organization and myself. Always passionate about learning new technologies.
           </p>
           <div>
           <Link
