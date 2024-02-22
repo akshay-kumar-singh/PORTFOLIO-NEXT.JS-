@@ -7,19 +7,8 @@ import Link from "next/link";
 
 const HeroSection = () => {
 
-  // const handleDownload = () => {
-  //   // Construct the URL to your resume file
-  //   const resumeUrl = '/Akki.jpg'; // Update the path as per your project structure
-    
-  //   // Trigger download
-  //   const anchor = document.createElement('a');
-  //   anchor.href = resumeUrl;
-  //   anchor.download = 'Image.jpg'; // File name users will see when downloading
-  //   anchor.click();
-  // };
-
   const handleDownload = () => {
-    const resumeUrl = '/resume.pdf'; // Assuming the resume file is in the public directory
+    const resumeUrl = '/Akshay.pdf';
     
     // Fetch the resume file
     fetch(resumeUrl)
@@ -33,10 +22,7 @@ const HeroSection = () => {
         anchor.href = url;
         anchor.download = 'resume.pdf'; // File name users will see when downloading
   
-        // Set the content-type header
         anchor.setAttribute('type', 'application/pdf');
-  
-        // Trigger download
         anchor.click();
   
         // Release the object URL
