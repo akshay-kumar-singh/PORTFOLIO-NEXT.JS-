@@ -5,26 +5,28 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+
+
 const HeroSection = () => {
 
   const handleDownload = () => {
     const resumeUrl = '/resume.pdf';
-    
+
     // Fetch the resume file
     fetch(resumeUrl)
       .then(response => response.blob())
       .then(blob => {
         // Create a blob URL for the PDF file
         const url = window.URL.createObjectURL(new Blob([blob]));
-        
+
         // Create an anchor element for download
         const anchor = document.createElement('a');
         anchor.href = url;
         anchor.download = 'resume.pdf'; // File name users will see when downloading
-  
+
         anchor.setAttribute('type', 'application/pdf');
         anchor.click();
-  
+
         // Release the object URL
         window.URL.revokeObjectURL(url);
       })
@@ -32,7 +34,7 @@ const HeroSection = () => {
         console.error('Error downloading the file:', error);
       });
   };
-  
+
 
   return (
     <section className="h-screen lg:py-16 flex items-center justify-center">
@@ -44,7 +46,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -65,18 +67,18 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I&apos;m quick and enthusiatic learner. To secure a challenging position where I can effectively contribute my skills as software developer engineer professional for growth of organization and myself. Always passionate about learning new technologies.
+            I&apos;m quick and enthusiatic learner. To secure a challenging position where I can effectively contribute my skills as software developer engineer professional for growth of organization and myself. Always passionate about learning new technologies.
           </p>
           <div>
-          <Link
-              href="/"
+            <Link
+              href="#contact"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-grdient-to-bar from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Hire Me
               </span>
-            
             </Link>
+
             <Link
               href="/"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-grdient-to-bar from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
