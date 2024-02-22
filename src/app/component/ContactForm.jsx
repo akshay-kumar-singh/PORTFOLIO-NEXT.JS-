@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const ContactForm = () => {
+
   return (
     <section
       id="contact"
@@ -35,7 +36,8 @@ const ContactForm = () => {
         </div>
       </div>
       <div className="z-10">
-        <form className="flex flex-col">
+        <form action="https://formspree.io/f/mqkrqoep"
+          method="POST" className="flex flex-col">
           <div className="mb-6">
             <label
               htmlFor="email"
