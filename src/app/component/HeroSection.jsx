@@ -7,16 +7,46 @@ import Link from "next/link";
 
 const HeroSection = () => {
 
-  const handleDownload = () => {
-    // Construct the URL to your resume file
-    const resumeUrl = '/images/Resume.pdf'; // Update the path as per your project structure
+  // const handleDownload = () => {
+  //   // Construct the URL to your resume file
+  //   const resumeUrl = '/Akki.jpg'; // Update the path as per your project structure
     
-    // Trigger download
-    const anchor = document.createElement('a');
-    anchor.href = resumeUrl;
-    anchor.download = 'resume.pdf'; // File name users will see when downloading
-    anchor.click();
+  //   // Trigger download
+  //   const anchor = document.createElement('a');
+  //   anchor.href = resumeUrl;
+  //   anchor.download = 'Image.jpg'; // File name users will see when downloading
+  //   anchor.click();
+  // };
+
+  const handleDownload = () => {
+    const resumeUrl = '/resume.pdf'; // Assuming the resume file is in the public directory
+    
+    // Fetch the resume file
+    fetch(resumeUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        // Create a blob URL for the PDF file
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        
+        // Create an anchor element for download
+        const anchor = document.createElement('a');
+        anchor.href = url;
+        anchor.download = 'resume.pdf'; // File name users will see when downloading
+  
+        // Set the content-type header
+        anchor.setAttribute('type', 'application/pdf');
+  
+        // Trigger download
+        anchor.click();
+  
+        // Release the object URL
+        window.URL.revokeObjectURL(url);
+      })
+      .catch(error => {
+        console.error('Error downloading the file:', error);
+      });
   };
+  
 
   return (
     <section className="h-screen lg:py-16 flex items-center justify-center">
