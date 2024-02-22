@@ -8,7 +8,7 @@ import Link from "next/link";
 const HeroSection = () => {
 
   const handleDownload = () => {
-    const resumeUrl = '/Akshay.pdf';
+    const resumeUrl = '/resume.pdf';
     
     // Fetch the resume file
     fetch(resumeUrl)
