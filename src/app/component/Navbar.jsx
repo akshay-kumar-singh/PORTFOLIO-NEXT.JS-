@@ -15,6 +15,10 @@ const navLinks = [
     path: "#projects",
   },
   {
+    title: "Blog",
+    path: "https://my-blog-next-js-three.vercel.app/",
+  },
+  {
     title: "Contact",
     path: "#contact",
   },
