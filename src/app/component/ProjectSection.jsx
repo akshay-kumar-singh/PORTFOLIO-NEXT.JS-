@@ -58,7 +58,7 @@ const projectsData = [
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/zomato",
-    previewUrl: "https://youtu.be/Rz9qgUe2C6s",
+    previewUrl: "https://zomato-food.netlify.app/",
   },
 ];
 
