@@ -20,8 +20,8 @@ const projectsData = [
     description: "This is a Stack Overflow clone project built using the MERN stack. The project replicates the core functionalities of Stack Overflow, allowing users to ask questions, provide answers, upvote/downvote questions and answers, and comment on posts.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/akshay-kumar-singh/stack-overflow",
-    previewUrl: "https://youtu.be/VILu1HylkOM",
+    gitUrl: "https://github.com/akshay-kumar-singh/Stack-Overflow-Frontend",
+    previewUrl: "https://stack-overflow-prod.netlify.app/",
   },
  
   {
@@ -31,7 +31,7 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/akshay-kumar-singh/youtube-clone/tree/master",
-    previewUrl: "https://youtu.be/vaIhxnyGBbI?si=5_f7TdXBH2kYQtA6",
+    previewUrl: "https://youtube-clone-akki.netlify.app",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/unsplash-image-search",
-    previewUrl: "https://youtu.be/OcGin7tiVVI?si=BbN2GA6f66HgbaXO",
+    previewUrl: "https://image-search-react-unsplash.netlify.app",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/expanse-tracker",
-    previewUrl: "https://youtu.be/KU6FX5-GWkE",
+    previewUrl: "https://expense-tracker-akki.netlify.app",
   },
   {
     id: 6,
