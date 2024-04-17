@@ -60,6 +60,7 @@ const projectsData = [
     gitUrl: "https://github.com/akshay-kumar-singh/zomato",
     previewUrl: "https://zomato-food.netlify.app/",
   },
+  
 ];
 
 const ProjectsSection = () => {
