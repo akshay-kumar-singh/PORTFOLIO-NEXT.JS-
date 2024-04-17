@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Website",
-    description: "it is an ecommerce app with React 18 , Strapi and Stripe. Here, user can search , select and buy any product also user can add any product in cart. user-friendly online stores with a focus on intuitive navigation and secure payment systems with stripe.",
+    title: "Real Time Chat App",
+    description: "it is a Real Time Chat App , Here use can send and recieve message in real time with Socket.io. User see other users online status and in this chat app Global State is managed with Zustand",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/akshay-kumar-singh/my-store",
-    previewUrl: "https://youtu.be/zHjQPNzuYUA?si=SOIAyJJ3MlFAG2tL",
+    gitUrl: "https://github.com/akshay-kumar-singh/Chat-App",
+    previewUrl: "https://chat-app-kuhc.onrender.com",
   },
   {
     id: 2,
