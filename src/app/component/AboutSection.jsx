@@ -56,7 +56,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:flex md:justify-center gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="md:max-w-md">
+        <div className="md:max-w-md hidden sm:block">
           <Image src="/images/about.png" alt="about" width={500} height={500} />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full max-w-lg">
@@ -69,7 +69,7 @@ const AboutSection = () => {
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>
-          <div className="flex flex-col md:flex-row justify-center md:justify-start mt-8">
+          <div className="flex flex-row justify-center md:justify-start mt-8 space-x-2">
             {TAB_DATA.map((tabData) => (
               <TabButton
                 key={tabData.id}
