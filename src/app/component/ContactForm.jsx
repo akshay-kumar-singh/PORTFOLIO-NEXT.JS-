@@ -12,16 +12,16 @@ const ContactForm = () => {
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">
+        <h5 className="text-xl text-gradient-secondary font-bold text-white my-2">
           Let`&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
+        <p className="text-gradient mb-4 max-w-md">
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="mb-4">
+        <div className="mb-4 text-gradient">
           <div>Phone : +91-9123119624</div>
           <div>Email : akshaysing975@gmail.com</div>
         </div>
@@ -40,7 +40,7 @@ const ContactForm = () => {
           <div className="mb-6">
             <label
               htmlFor="email"
-              className="text-white block mb-2 text-sm font-medium"
+              className="text-gradient-secondary block mb-2 text-sm font-medium"
             >
               Your email
             </label>
@@ -55,7 +55,7 @@ const ContactForm = () => {
           <div className="mb-6">
             <label
               htmlFor="subject"
-              className="text-white block text-sm mb-2 font-medium"
+              className="text-gradient-secondary block text-sm mb-2 font-medium"
             >
               Subject
             </label>
@@ -70,7 +70,7 @@ const ContactForm = () => {
           <div className="mb-6">
             <label
               htmlFor="message"
-              className="text-white block text-sm mb-2 font-medium"
+              className="text-gradient-secondary block text-sm mb-2 font-medium"
             >
               Message
             </label>

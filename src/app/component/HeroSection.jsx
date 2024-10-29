@@ -46,23 +46,25 @@ const HeroSection = () => {
               Hello, I&apos;m{" "}
             </span>
             <br />
-            <TypeAnimation
-              sequence={[
-                "Akshay",
-                1000,
-                "Web Developer",
-                1000,
-                // "Mobile Developer",
-                // 1000,
-                // "UI/UX Designer",
-                // 1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+            <span className="text-accent">
+              <TypeAnimation
+                sequence={[
+                  "Akshay",
+                  1000,
+                  "Web Developer",
+                  1000,
+                  // "Mobile Developer",
+                  // 1000,
+                  // "UI/UX Designer",
+                  // 1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
+            </span>
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#ADB7BE] text-gradient text-base sm:text-lg mb-6 lg:text-xl">
             I&apos;m a quick and enthusiastic learner. To secure a challenging
             position where I can effectively contribute my skills as a software
             developer engineer professional for the growth of the organization

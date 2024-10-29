@@ -1,11 +1,15 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import NavLink from "./NavLink";
+import NavLink from "./NavLink"; // Make sure this supports color styles
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
+  {
+    title: "Home",
+    path: "#home",
+  },
   {
     title: "About",
     path: "#about",
@@ -32,10 +36,9 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-2xl md:text-5xl text-white font-semibold text-accent"
         >
           ☬AKKI☬
-          {/* <img src="logo.png" alt="logo" height={50} width={100} /> */}
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

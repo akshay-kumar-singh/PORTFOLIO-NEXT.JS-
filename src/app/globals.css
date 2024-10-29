@@ -42,6 +42,19 @@ body {
   color: #f48fb1; /* Accent color for tech stack or keywords */
 }
 
+.text-gradient-primary {
+  background: linear-gradient(90deg, #00B4DB, #0083B0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-secondary {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 /* 
 @tailwind base;
 @tailwind components;
