@@ -169,8 +169,8 @@ const AboutSection = () => {
             alt="about"
             width={500}
             height={500}
-            layout="responsive"
-          />
+            className="object-cover" 
+            />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full max-w-lg">
           <h2 className="text-4xl text-accent font-bold text-white mb-4">About Me</h2>

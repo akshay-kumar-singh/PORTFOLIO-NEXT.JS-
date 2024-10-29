@@ -65,14 +65,6 @@ const workExperiences = [
         <span className="text-accent">Strapi</span>.
         <br />
         <br />
-        <Link
-          href="https://drive.google.com/file/d/1RY2wcPxs1F4NxCOoh7jcFvqeyaAx3WbW/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gradient underline hover:text-primary-400 transition duration-200"
-        >
-          View Certificate
-        </Link>
       </>
     ),
   },
@@ -110,6 +102,14 @@ const WorkExperience = () => {
               <p className="text-gradient text-lg leading-relaxed mt-2">
                 {experience.description}
               </p>
+              <Link
+                href="https://drive.google.com/file/d/1RY2wcPxs1F4NxCOoh7jcFvqeyaAx3WbW/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block bg-gradient-to-r from-primary-400 to-secondary-600 text-white text-center font-bold py-2 px-4 rounded transition duration-300 hover:scale-105 hover:shadow-lg"
+              >
+                View Certificate
+              </Link>
             </motion.li>
           ))}
         </ul>
