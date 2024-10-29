@@ -31,6 +31,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.text-gradient {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-accent {
+  color: #f48fb1; /* Accent color for tech stack or keywords */
+}
+
 /* 
 @tailwind base;
 @tailwind components;

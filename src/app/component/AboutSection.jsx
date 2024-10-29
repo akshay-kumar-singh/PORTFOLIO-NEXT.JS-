@@ -57,7 +57,11 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:flex md:justify-center gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="md:max-w-md hidden sm:block">
-          <Image src="/images/about.png" alt="about" width={500} height={500} />
+          <Image src="/images/about.png" alt="about"
+          width={500} 
+          height={500}
+          layout="responsive"
+          />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full max-w-lg">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
