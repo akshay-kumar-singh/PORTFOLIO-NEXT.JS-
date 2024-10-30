@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const ContactForm = () => {
-
   return (
     <section
       id="contact"
@@ -25,18 +24,41 @@ const ContactForm = () => {
           <div>Phone : +91-9123119624</div>
           <div>Email : akshaysing975@gmail.com</div>
         </div>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2 ">
           <Link href="https://github.com/akshay-kumar-singh">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image
+              src={GithubIcon}
+              alt="Github Icon"
+              className="filter hover:brightness-110 transition duration-300"
+              style={{
+                width: "40px",
+                height: "40px",
+                filter:
+                  "invert(36%) sepia(100%) saturate(3538%) hue-rotate(180deg) brightness(92%) contrast(100%) ",
+              }}
+            />
           </Link>
           <Link href="https://www.linkedin.com/in/akshay-singh-39531324b/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image
+              src={LinkedinIcon}
+              alt="Linkedin Icon"
+              className="filter hover:brightness-110 transition duration-300"
+              style={{
+                width: "40px",
+                height: "40px",
+                filter:
+                  "invert(36%) sepia(100%) saturate(3538%) hue-rotate(180deg) brightness(92%) contrast(100%)",
+              }}
+            />{" "}
           </Link>
         </div>
       </div>
       <div className="z-10">
-        <form action="https://formspree.io/f/mqkrqoep"
-          method="POST" className="flex flex-col">
+        <form
+          action="https://formspree.io/f/mqkrqoep"
+          method="POST"
+          className="flex flex-col"
+        >
           <div className="mb-6">
             <label
               htmlFor="email"
