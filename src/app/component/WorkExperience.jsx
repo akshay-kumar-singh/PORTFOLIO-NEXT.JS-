@@ -93,7 +93,7 @@ const WorkExperience = () => {
               className="p-6 rounded-lg bg-[#1E1E1E] transition duration-300 hover:shadow-xl hover:bg-[#2A2A2A] cursor-pointer"
             >
               <div className="flex justify-between items-center mb-2">
-                <h3 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+                <h3 className="text-2xl text-gradient-secondary font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
                   {experience.position}
                 </h3>
                 <p className="text-gradient">{experience.duration}</p>
@@ -102,14 +102,16 @@ const WorkExperience = () => {
               <p className="text-gradient text-lg leading-relaxed mt-2">
                 {experience.description}
               </p>
-              <Link
-                href="https://drive.google.com/file/d/1RY2wcPxs1F4NxCOoh7jcFvqeyaAx3WbW/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-block bg-gradient-to-r from-primary-400 to-secondary-600 text-white text-center font-bold py-2 px-4 rounded transition duration-300 hover:scale-105 hover:shadow-lg"
-              >
-                View Certificate
-              </Link>
+              {experience.company === "Starting Core" && (
+                <Link
+                  href="/startingcore.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block bg-gradient-to-r from-primary-400 to-secondary-600 text-white text-center font-bold py-2 px-4 rounded transition duration-300 hover:scale-105 hover:shadow-lg"
+                >
+                  View Certificate
+                </Link>
+              )}
             </motion.li>
           ))}
         </ul>

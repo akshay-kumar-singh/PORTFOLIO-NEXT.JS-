@@ -13,7 +13,7 @@ import {
   FaCertificate,
   FaBootstrap,
   FaGithub,
-} from "react-icons/fa"; // Importing various icons
+} from "react-icons/fa";
 import {
   SiExpress,
   SiNextdotjs,
@@ -21,12 +21,12 @@ import {
   SiStrapi,
   SiPostman,
   SiOpenai,
-} from "react-icons/si"; // Importing additional icons
+} from "react-icons/si";
 import { TbBrandTailwind } from "react-icons/tb";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FcLinux } from "react-icons/fc";
 import { FiGitlab } from "react-icons/fi";
-import { motion } from "framer-motion"; // Importing framer-motion
+import { motion } from "framer-motion";
 
 const TAB_DATA = [
   {
@@ -34,7 +34,6 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
-        {/* List of Skills with Icons */}
         <div className="flex items-center text-gradient">
           <FaHtml5 className="text-4xl mr-2 text-primary-500" />
           <span>HTML</span>
@@ -44,23 +43,23 @@ const TAB_DATA = [
           <span>CSS</span>
         </div>
         <div className="flex items-center text-gradient">
-          <TbBrandTailwind className="text-4xl mr-2 text-blue-400" />
+          <TbBrandTailwind className="text-4xl mr-2 text-sky-400" />
           <span>Tailwind CSS</span>
         </div>
         <div className="flex items-center text-gradient">
-          <FaBootstrap className="text-4xl mr-2 text-purple-500" />
+          <FaBootstrap className="text-4xl mr-2 text-secondary-500" />
           <span>Bootstrap</span>
         </div>
         <div className="flex items-center text-gradient">
-          <SiMui className="text-4xl mr-2 text-blue-600" />
+          <SiMui className="text-4xl mr-2 text-sky-600" />
           <span>MUI</span>
         </div>
         <div className="flex items-center text-gradient">
-          <FaJs className="text-4xl mr-2 text-yellow-400" />
+          <FaJs className="text-4xl mr-2 text-yellow-500" />
           <span>JavaScript</span>
         </div>
         <div className="flex items-center text-gradient">
-          <FaReact className="text-4xl mr-2 text-blue-500" />
+          <FaReact className="text-4xl mr-2 text-sky-500" />
           <span>React.js</span>
         </div>
         <div className="flex items-center text-gradient">
@@ -72,15 +71,15 @@ const TAB_DATA = [
           <span>Node.js</span>
         </div>
         <div className="flex items-center text-gradient">
-          <SiExpress className="text-4xl mr-2 text-gray-500" />
+          <SiExpress className="text-4xl mr-2 text-stone-500" />
           <span>Express.js</span>
         </div>
         <div className="flex items-center text-gradient">
-          <FaDatabase className="text-4xl mr-2 text-indigo-500" />
+          <FaDatabase className="text-4xl mr-2 text-sky-500" />
           <span>MongoDB</span>
         </div>
         <div className="flex items-center text-gradient">
-          <SiStrapi className="text-4xl mr-2 text-orange-600" />
+          <SiStrapi className="text-4xl mr-2 text-primary-600" />
           <span>Strapi</span>
         </div>
         <div className="flex items-center text-gradient">
@@ -88,15 +87,15 @@ const TAB_DATA = [
           <span>Firebase</span>
         </div>
         <div className="flex items-center text-gradient">
-          <SiPostman className="text-4xl mr-2 text-yellow-500" />
+          <SiPostman className="text-4xl mr-2 text-primary-500" />
           <span>Postman</span>
         </div>
         <div className="flex items-center text-gradient">
-          <FcLinux className="text-4xl mr-2 text-yellow-500" />
+          <FcLinux className="text-4xl mr-2" />
           <span>Linux</span>
         </div>
         <div className="flex items-center text-gradient">
-          <SiOpenai className="text-4xl mr-2 text-yellow-500" />
+          <SiOpenai className="text-4xl mr-2 text-yellow-400" />
           <span>ChatGPT</span>
         </div>
         <div className="flex items-center text-gradient">
@@ -104,7 +103,7 @@ const TAB_DATA = [
           <span>Git & GitHub</span>
         </div>
         <div className="flex items-center text-gradient">
-          <FiGitlab className="text-4xl mr-2 text-yellow-500" />
+          <FiGitlab className="text-4xl mr-2 text-secondary-500" />
           <span>GitLab</span>
         </div>
       </div>
@@ -116,9 +115,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-none pl-0 space-y-3">
         <li className="flex items-center text-gradient">
-          <FaCertificate className="text-2xl mr-2" />
+          <FaCertificate className="text-2xl mr-2 text-primary-500" />
           <Link
-            href="https://drive.google.com/file/d/1SGs__4Q-Z_1coyDJuyJpiGlGZifwix0L/view?usp=sharing"
+            // href="https://drive.google.com/file/d/1SGs__4Q-Z_1coyDJuyJpiGlGZifwix0L/view?usp=sharing"
+            href="/react.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:underline"
@@ -127,9 +127,10 @@ const TAB_DATA = [
           </Link>
         </li>
         <li className="flex items-center text-gradient">
-          <FaCertificate className="text-2xl mr-2" />
+          <FaCertificate className="text-2xl mr-2 text-secondary-500" />
           <Link
-            href="https://drive.google.com/file/d/1IHU3S6pSCPZPseNbJUCKlkAxuv1xD6rx/view?usp=sharing"
+            // href="https://drive.google.com/file/d/1IHU3S6pSCPZPseNbJUCKlkAxuv1xD6rx/view?usp=sharing"
+            href="/next.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:underline"
@@ -138,9 +139,10 @@ const TAB_DATA = [
           </Link>
         </li>
         <li className="flex items-center text-gradient">
-          <FaCertificate className="text-2xl mr-2" />
+          <FaCertificate className="text-2xl mr-2 text-stone-500" />
           <Link
-            href="https://drive.google.com/file/d/1ceQr38_811mWMIThlfTje3-_Sraq_HlQ/view?usp=sharing"
+            // href="https://drive.google.com/file/d/1ceQr38_811mWMIThlfTje3-_Sraq_HlQ/view?usp=sharing"
+            href="/aplha.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:underline"
@@ -175,10 +177,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full max-w-lg">
           <h2 className="text-4xl text-accent font-bold text-white mb-4">About Me</h2>
           <motion.p
-            className="text-base lg:text-lg mb-4 text-gradient" // Ensure color is set
+            className="text-base lg:text-lg mb-4 text-gradient"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }} // Adjust duration as needed
+            transition={{ duration: 0.5 }}
           >
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
