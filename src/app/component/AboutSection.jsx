@@ -142,7 +142,7 @@ const TAB_DATA = [
           <FaCertificate className="text-2xl mr-2 text-stone-500" />
           <Link
             // href="https://drive.google.com/file/d/1ceQr38_811mWMIThlfTje3-_Sraq_HlQ/view?usp=sharing"
-            href="/aplha.pdf"
+            href="/alpha.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:underline"
