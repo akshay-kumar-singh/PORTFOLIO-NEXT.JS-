@@ -3,7 +3,7 @@ export const projectsData = [
     id: 1,
     title: "Real Time Chat App",
     description:
-      "A real-time chat application where users can send and receive messages instantly using Socket.io. It includes online status updates for each user, with global state management powered by Zustand.",
+      "A real-time chat application with instant messaging using Socket.io. Features include online user status updates and global state management via Zustand for a seamless, interactive experience.",
     image: "/images/projects/chatapp.png",
     tag: ["All", "FullStack", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/Chat-App",
@@ -13,7 +13,7 @@ export const projectsData = [
     id: 2,
     title: "Stack-Overflow Website",
     description:
-      "A Stack Overflow clone built with the MERN stack, allowing users to ask questions, answer, vote on posts, and add comments. The app mirrors key functionalities of the original site.",
+      "A MERN stack Stack Overflow clone allowing users to ask questions, answer, vote, and comment. The project replicates core features of the original platform, creating a user-friendly Q&A experience.",
     image: "/images/projects/stackoverflow.png",
     tag: ["All", "FullStack", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/Stack-Overflow-Frontend",
@@ -21,9 +21,9 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Youtube Clone",
+    title: "YouTube Clone",
     description:
-      "A YouTube clone built with React and Web APIs, featuring an efficient keyword-based search function to help users easily find their favorite videos.",
+      "A YouTube clone built with React and Web APIs, featuring keyword-based search for easy video discovery. Offers a familiar browsing experience with fluid navigation for seamless content access.",
     image: "/images/projects/youtube.png",
     tag: ["All", "Frontend", "Mobile"],
     gitUrl: "https://github.com/akshay-kumar-singh/youtube-clone/tree/master",
@@ -33,7 +33,7 @@ export const projectsData = [
     id: 4,
     title: "Unsplash Image Search",
     description:
-      "A simple web application that allows users to search and browse images based on keywords. Built with Unsplash API for rich image data access.",
+      "A web app that enables users to search and view images based on keywords. Integrated with the Unsplash API, providing access to a diverse, high-quality image gallery for effortless exploration.",
     image: "/images/projects/unsplash.png",
     tag: ["Frontend", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/unsplash-image-search",
@@ -43,18 +43,17 @@ export const projectsData = [
     id: 5,
     title: "Expense Tracker",
     description:
-      "An open-source budgeting and expense tracking tool for managing, visualizing, and analyzing financial expenditures. Built for easy expense tracking.",
+      "An open-source budgeting tool to track expenses, allowing users to manage, visualize, and analyze financial data. Designed for an intuitive and efficient approach to personal finance management.",
     image: "/images/projects/expense.png",
     tag: ["Frontend", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/expanse-tracker",
     previewUrl: "https://expense-tracker-akki.netlify.app",
   },
-
   {
     id: 6,
     title: "Admin Dashboard",
     description:
-      "A responsive admin dashboard with React.js, offering an intuitive interface for managing data and tracking various application metrics.",
+      "A versatile admin dashboard with React.js, designed for tracking metrics and managing data. Built with a responsive design for optimal usability, offering efficient data handling across devices.",
     image: "/images/projects/admin.png",
     tag: ["All", "Frontend", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/Admin-Dashboard-React-",
@@ -64,7 +63,7 @@ export const projectsData = [
     id: 7,
     title: "My Blog",
     description:
-      "A simple blogging platform created with Next.js and Tailwind CSS. Focuses on technical interview questions and tech-related blog content.",
+      "A blog platform created with Next.js and Tailwind CSS, featuring content focused on technical interview questions and tech-related articles. Clean design ensures a pleasant reading experience.",
     image: "/images/projects/blog.png",
     tag: ["FullStack", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/My-Blog-Next.js-",
@@ -74,7 +73,7 @@ export const projectsData = [
     id: 8,
     title: "Food Willa",
     description:
-      "A restaurant finder app powered by Swiggy's live API, featuring search capabilities and restaurant details. Responsive design ensures a smooth experience.",
+      "A restaurant finder app using Swiggy’s live API to fetch restaurant data, with search features and restaurant details. Note: The API is unofficial; CORS issues may arise. Swiggy may also change its API structure over time, so API fetching adjustments may be needed.",
     image: "/images/projects/food.png",
     tag: ["All", "Frontend", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/Food-Willa",
@@ -84,13 +83,15 @@ export const projectsData = [
     id: 9,
     title: "Netflix GPT",
     description:
-      "A Netflix-style application with AI-powered recommendations using TMDB and Gemini GPT APIs. Offers an enhanced movie browsing experience.",
+      "A Netflix-style app enhanced by AI-powered recommendations using TMDB and Gemini GPT APIs for personalized suggestions. Note: TMDB API may require a VPN in some regions, including India, due to restrictions.",
     image: "/images/projects/netflix.png",
     tag: ["All", "Frontend", "Web"],
     gitUrl: "https://github.com/akshay-kumar-singh/Netflix-GPT",
     previewUrl: "https://moviegpt123.netlify.app/",
   },
 ];
+
+
 
 // {
 //   id: 6,
