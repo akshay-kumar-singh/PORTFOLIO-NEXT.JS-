@@ -1,37 +1,33 @@
 "use client";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 const workExperiences = [
   {
     id: 1,
     position: "Software Developer",
     company: "Vision Infotech",
-    duration: "Oct 2024 - Present",
+    duration: "Mar 2024 - Present",
     description: (
       <>
-        <span className="text-gradient font-semibold">
-          Project: LMS Portal
-          <br />
-        </span>
-        – Developing an interactive learning management system using React.js
-        with a strong focus on modularity and reusability. Following the Atomic
-        Design principle, I build components in a structured hierarchy of atoms,
-        molecules, organisms, and templates, ensuring consistency and ease of
-        scaling. <br />
+        <span className="text-gradient font-semibold">Project: LMS Portal</span>
+        <br /> <br/>
+        – Developed a scalable Learning Management System (LMS) using React.js and Next.js, following Atomic Design principles for modularity and reusability.
         <br />
-        – I’ve integrated GrapesJS, allowing institutes to customize their
-        platforms visually without needing to code.
+        – Implemented Redux-Saga for state management and efficient API handling, improving performance and maintainability.
+        <br /> 
+        – Integrated GrapesJS, enabling drag-and-drop customization, reducing manual UI updates.
+        <br /> 
+        – Optimized performance using debouncing & throttling, reducing redundant API calls.
         <br />
-        <br />
-        – My responsibilities include implementing frontend functionality and
-        connecting with backend APIs to deliver a user-friendly, intuitive, and
-        adaptable experience.
-        <br />
-        <br />– Working on: React
+        – Enhanced lazy loading & dynamic imports in Next.js, reducing initial page load time.
+        <br /> <br/>
+        Tech Stack: React.js, Next.js, Redux-Saga, Tailwind CSS, GrapesJS.
       </>
     ),
   },
+  
+  // Commenting out Starting Core Experience
+  /*
   {
     id: 2,
     position: "Software Developer (Intern)",
@@ -68,6 +64,7 @@ const workExperiences = [
       </>
     ),
   },
+  */
 ];
 
 const WorkExperience = () => {
@@ -79,7 +76,7 @@ const WorkExperience = () => {
   return (
     <section id="work-experience" className="py-12 bg-[#121212] text-[#ADB7BE]">
       <h2 className="text-center text-accent text-4xl font-bold text-white mb-8">
-        Work Experience
+        Work Experience ( 1 year)
       </h2>
       <div className="container mx-auto px-4">
         <ul className="space-y-6">
@@ -102,16 +99,6 @@ const WorkExperience = () => {
               <p className="text-gradient text-lg leading-relaxed mt-2">
                 {experience.description}
               </p>
-              {experience.company === "Starting Core" && (
-                <Link
-                  href="/startingcore.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-4 inline-block bg-gradient-to-r from-primary-400 to-secondary-600 text-white text-center font-bold py-2 px-4 rounded transition duration-300 hover:scale-105 hover:shadow-lg"
-                >
-                  View Certificate
-                </Link>
-              )}
             </motion.li>
           ))}
         </ul>
