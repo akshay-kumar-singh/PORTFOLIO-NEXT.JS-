@@ -10,22 +10,28 @@ const workExperiences = [
     description: (
       <>
         <span className="text-gradient font-semibold">Project: LMS Portal</span>
-        <br /> <br/>
-        – Developed a scalable Learning Management System (LMS) using React.js and Next.js, following Atomic Design principles for modularity and reusability.
+        <br /> <br />
+        – Developed a scalable Learning Management System (LMS) using React.js
+        and Next.js, following Atomic Design principles for modularity and
+        reusability.
         <br />
-        – Implemented Redux-Saga for state management and efficient API handling, improving performance and maintainability.
-        <br /> 
-        – Integrated GrapesJS, enabling drag-and-drop customization, reducing manual UI updates.
-        <br /> 
-        – Optimized performance using debouncing & throttling, reducing redundant API calls.
+        – Implemented Redux-Saga for state management and efficient API
+        handling, improving performance and maintainability.
         <br />
-        – Enhanced lazy loading & dynamic imports in Next.js, reducing initial page load time.
-        <br /> <br/>
+        – Integrated GrapesJS, enabling drag-and-drop customization, reducing
+        manual UI updates.
+        <br />
+        – Optimized performance using debouncing & throttling, reducing
+        redundant API calls.
+        <br />
+        – Enhanced lazy loading & dynamic imports in Next.js, reducing initial
+        page load time.
+        <br /> <br />
         Tech Stack: React.js, Next.js, Redux-Saga, Tailwind CSS, GrapesJS.
       </>
     ),
   },
-  
+
   // Commenting out Starting Core Experience
   {
     id: 2,
@@ -37,16 +43,14 @@ const workExperiences = [
         <span className="text-gradient font-semibold">
           Project 1: Lace Studio
         </span>
-        <br />
+        <br /> <br />
         – Developed a user authentication and subscription system with secure
         signup, login, logout, and email verification using Node.js and
         Nodemailer.
         <br />
-        <br />
         – Created frontend pages. Configured Strapi CMS for managing blogs and
         products, enabling seamless product listing with external links.
-        <br />
-        <br />
+        <br /> <br />
         <span className="text-gradient font-semibold">Project 2: Pets</span>
         <br />
         – Set up the full project structure, organizing components for better
