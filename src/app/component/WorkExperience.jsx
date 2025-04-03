@@ -6,7 +6,7 @@ const workExperiences = [
     id: 1,
     position: "Software Developer",
     company: "Vision Infotech",
-    duration: "Mar 2024 - Present",
+    duration: "Sep 2024 - Present",
     description: (
       <>
         <span className="text-gradient font-semibold">Project: LMS Portal</span>
@@ -27,7 +27,6 @@ const workExperiences = [
   },
   
   // Commenting out Starting Core Experience
-  /*
   {
     id: 2,
     position: "Software Developer (Intern)",
@@ -64,7 +63,6 @@ const workExperiences = [
       </>
     ),
   },
-  */
 ];
 
 const WorkExperience = () => {
